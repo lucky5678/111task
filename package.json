@@ -4,7 +4,7 @@
   "description": "task",
   "main": "main.js",
   "scripts": {
-    "test": "mocha spec/main_spec.js"
+    "test": "jasmine-node --verbose spec"
   },
   "repository": {
     "type": "git",

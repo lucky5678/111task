@@ -3,7 +3,7 @@
  */
 function main(number) {
     if (number > 1) {
-        return number + 'bottles of beer on the wall,' + number + 'bottles of beer.\nTake one down, pass it around,' + number - 1 + 'bottles of beer on the wall.'
+        return number+ ' bottles of beer on the wall, '+number + ' bottles of beer.\nTake one down, pass it around, '+ (number - 1) + ' bottles of beer on the wall.';
     }
     else if (number < 1) {
         return 'No more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.'
