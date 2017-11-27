@@ -1,0 +1,22 @@
+{
+  "name": "99_bottles_of_beer",
+  "version": "1.0.0",
+  "description": "task",
+  "main": "main.js",
+  "scripts": {
+    "test": "main_spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tws-online-quiz/99_bottles_of_beer.git"
+  },
+  "author": "zhujun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tws-online-quiz/99_bottles_of_beer/issues"
+  },
+  "homepage": "https://github.com/tws-online-quiz/99_bottles_of_beer#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
