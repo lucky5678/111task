@@ -4,7 +4,7 @@
   "description": "task",
   "main": "main.js",
   "scripts": {
-    "test": "main_spec.js"
+    "test": "mocha spec/main_spec.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/tws-online-quiz/99_bottles_of_beer#readme",
   "devDependencies": {
     "jasmine": "^2.6.0"
+  },
+  "dependencies": {
+    "jasmine-node": "1.14.5"
   }
 }
